@@ -1,0 +1,14 @@
+while i < length:
+    print(list1[i])
+    i+=1
+
+list1=[10,10.5,'Apple',34,47]
+[print(i) for i in list1]
+
+list1=[10,10.5,'Apple',34,47]
+for i in range(len(list1)):
+    print(i,"",list1[i])
+
+student_name={"Alice":95,"Bob":89,"Charlie":78,"David":92}
+for i,j in student_name.items():
+    print(f"{i}:{j}")
